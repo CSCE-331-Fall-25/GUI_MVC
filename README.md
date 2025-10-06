@@ -1,7 +1,9 @@
 # GUI_MVC
 MVC version of the simple GUI.java example provided in class
 
-# Project layout
+# Project Layout
+
+```bash
 src/
   model/
     MenuItem.java          // domain object (a row from menu table)
@@ -13,3 +15,4 @@ src/
   controller/
     MenuController.java    // button handlers call DAO methods
   App.java                 // main(): wires View + Controller
+
